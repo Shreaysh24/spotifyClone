@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="CSS/helper.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="topLeft m p radius secPrimeColor">
+                <img src="SVG/cross.svg" alt="cross" id="cross">
+                <img src="/SVG/logo.svg" alt="logo" style="filter: invert(1)">
+                <ul>
+                    <li class="flex textClr2 glow alignCenter">
+                        <img class="svgImg1" src="/SVG/home.svg" style="filter: invert(0.5)" alt="logo" /> Home
+                    </li>
+                    <li class="flex alignCenter textClr2 glow">
+                        <img class="svgImg1 " src="/SVG/search.svg" style="filter: invert(0.5)" alt="logo" />
+                        Search
+                    </li>
+                </ul>
+            </div>
+            <div class="botLeft radius m p secPrimeColor">
+                <div class="library scroll">
+                    <div class="upper">
+                        <div class="flex setCenter jcSB">
+                            <div class="flex">
+                                <img class="svgImg1" src="/SVG/stack.svg" style="filter: invert(0.5)" alt="stack" />
+                                <h4 class="textClr2 glow">Your Library</h4>
+                            </div>
+                            <div>
+                                <img class="svgImg1" src="/SVG/plus.svg" style="filter: invert(0.5)" alt="plus" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div class="middleLeft playlistColor radius">
+                            <h3>Create your first playlist</h3>
+                            <p>It's easy, we'll help you</p>
+                        </div>
+                        <div class="music">
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex links">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy
+                                Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="nav   radius flex">
+                    <div class="leftNav flex jcSB">
+                        <div>
+                            <div class="hamTop">
+                                <button class="ham arrows "><img src="/SVG/hamBar.svg" alt="hamburgerSvg"></button>
+                                <button class="arrows"><img src="/SVG/right.svg" alt="rightSVG"></button>
+                                <button class="arrows"><img src="/SVG/left.svg" alt="leftSVG"></button>
+                            </div>
+                        </div>
+                        <div class="navLink">
+                            <button class="navLinks hide">
+                                <h2><a class="glow"
+                                        href="https://www.spotify.com/in-en/premium/?utm_source=app&utm_medium=desktop&utm_cam aign=upgrade&ref=web_loggedout_premium_button">Premium</a>
+                                </h2>
+                            </button>
+                            <button class="navLinks hide">
+                                <h2><a class="glow" href="https://support.spotify.com/in-en/">Support</a></h2>
+                            </button>
+                            <button class="navLinks hide">
+                                <h2><a class="glow" href="https://www.spotify.com/in-en/download/windows/">Download</a>
+                                </h2>
+                            </button>
+                            <div class="bar hide"></div>
+                            <button class="navLinks">
+                                <h2><a class="glow" href="https://www.spotify.com/in-en/download/windows/">Sign up</a>
+                                </h2>
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="login">Log in</button>
+                    </div>
+                </div>
+            </div>
+            <div class="spotifyPlaylist scroll m p secPrimeColor">
+                <h2 class="wt ">Spotify Playlists</h2>
+                <div class="playlist">
+                    <!-- <div class="card wt" data-="marathi">
+                        <div class="playImg">
+                            <img src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037" alt="pl1">
+                        </div>
+                        <div class="info">
+                            <h3>Marathi</h3>
+                            <p class="textClr2">chill beats, lofi vibes, new tracks every week... </p>
+                        </div>
+                        <button class="control">
+                            <img src="SVG/play.svg" alt="play"></button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="playBar">
+                <div class="aboveBar">
+                    <div class="songInfo">
+                        <p1>Shantabai</p1>
+                    </div>
+                    <div class="controlButton ">
+                        <img id="previous" src="SVG/previous.svg" alt="previous" class="svgImg2">
+                        <img id="play" src="SVG/play.svg" alt="play" class="svgImg2">
+                        <img id="next" src="SVG/next.svg" alt="next" class="svgImg2">
+                    </div>
+                    <div class="timeVolume">
+                        <div class="songTime">
+                            <p1>0:00/0:00</p1>
+                        </div>
+                        <div class="slider ">
+                            <input type="range" class="level">
+                            <img src="SVG/volume.svg" alt="" class="volumeImg">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="seekBar"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="JS/script.js"></script>
+
+</html>

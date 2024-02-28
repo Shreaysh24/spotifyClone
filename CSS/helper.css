@@ -1,0 +1,52 @@
+.flex{
+    display: flex;
+}
+.radius{
+    border-radius: 4px;
+}
+.alignCenter{
+    align-items: center;
+}
+
+.secPrimeColor{
+    background-color: #121212;
+}
+.playlistColor{
+    background-color: #242424;
+}
+.wt{
+    color: white;
+}
+.textClr2{
+    color: #a7a7a7;
+}
+.svgImg1{
+    width: 23px;
+    margin-right: 17px;
+    filter: invert(1);
+}
+.jcSB{
+    justify-content: space-between;
+}
+.svgImg2{
+    width: 35px;
+    margin-right: 17px;
+    filter: invert(.1);
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.667);
+    border-radius: 20px;
+}
+.svgImg2:nth-child(2){
+    width: 35px;
+    margin-right: 17px;
+    filter: invert(.1);
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.scroll{
+    overflow-y: scroll;
+    scrollbar-color: #a7a7a7 black;
+    scrollbar-width:thin;
+  }
